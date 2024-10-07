@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmistyle.css">
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="https://media.istockphoto.com/id/1372865973/video/4k-dna-background-loopable.mp4?s=mp4-640x640-is&k=20&c=XrnEwTgzpJ2Sn2lvewdtFKvVFpaAcHSwNqRhAe6flvE=" type="video/mp4">
+      </video>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="form-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" required>
+        </div>
+        <button id="calculate-btn">Calculate BMI</button>
+        <div id="result"></div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
